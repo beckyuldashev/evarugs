@@ -1,0 +1,33 @@
+.header {
+  padding-block: 1.5rem;
+  background-image: var(--background-gradient-1);
+  color: #fff;
+
+  a {
+    color: currentColor;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__phone, &__location, &__social {
+    display: flex;
+    align-items: center;
+    font-size: var(--small-font-size);
+  }
+
+  &__phone {
+    column-gap: .75rem;
+  }
+
+  &__location {
+    column-gap: 0.5rem;
+  }
+
+  &__social {
+    column-gap: 1rem;
+  }
+}

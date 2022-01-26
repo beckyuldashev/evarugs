@@ -43,8 +43,6 @@
 
 /* ================== VARIABLES ================== */
 :root {
-  --header-height: 4.875rem;
-
   /* ==================== Colors ======================*/
   --body-color: #E5E5E5;
   --white-color: #fff;
@@ -53,9 +51,9 @@
   --black-color: #000;
 
   --linear-gradient-color-1: #B90160;
-  --linear-gradient-color-2: #2E3192;
+  --linear-gradient-color-2: hsla(238, 52%, 38%, 0.702);
   --linear-gradient-color-3: #3D5BF5;
-  --linear-gradient-color-4: #D4145A;
+  --linear-gradient-color-4: hsla(338, 83%, 45%, 0.7);
 
   --background-gradient-1: linear-gradient(269.91deg, var(--linear-gradient-color-2) 0%, var(--linear-gradient-color-4) 98.16%);
   --background-gradient-2: linear-gradient(95.2deg, var(--linear-gradient-color-1) 2.23%, var(--linear-gradient-color-2) 99.51%);

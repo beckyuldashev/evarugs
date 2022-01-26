@@ -1,0 +1,40 @@
+.footer {
+  padding-block: 10.75rem 5.25rem;
+  color: var(--black-color);
+
+  a {
+    color: currentColor;
+    font-weight: var(--font-light);
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__nav > * {
+    flex: 1;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: var(--mb-1);
+    font-size: var(--normal-font-size);
+    color: var(--black-color);
+    font-weight: var(--font-bold);
+  }
+
+  &__social {
+    &-icon {
+      display: inline-block;
+      width: 33px;
+      height: 33px;
+      background-image: url('../img/social/instagram-color.svg');
+    }
+  }
+
+  &__list {
+    display: grid;
+    row-gap: var(--mb-1);
+  }
+}
