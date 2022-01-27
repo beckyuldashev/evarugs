@@ -1,0 +1,21 @@
+@media screen and (min-width: 776px) {
+  .promo {
+    &__nav {
+      display: block;
+    }
+
+    &__img {
+      &-bg {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .promo {
+    &__img {
+      width: 531px;
+    }
+  }
+}

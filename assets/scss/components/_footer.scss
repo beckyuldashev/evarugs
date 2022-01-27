@@ -1,6 +1,8 @@
 .footer {
   padding-block: 10.75rem 5.25rem;
   color: var(--black-color);
+  background: url("../img/footer/mask1.png") top 20% right 15% no-repeat,
+  url("../img/footer/mask2.png") left 5% top 40% no-repeat;
 
   a {
     color: currentColor;
@@ -20,7 +22,6 @@
     margin: 0;
     margin-bottom: var(--mb-1);
     font-size: var(--normal-font-size);
-    color: var(--black-color);
     font-weight: var(--font-bold);
   }
 
