@@ -21,6 +21,11 @@
 
   &__phone {
     column-gap: .75rem;
+
+    &-links {
+      display: flex;
+      gap: .75rem;
+    }
   }
 
   &__location {

@@ -1,6 +1,78 @@
+@media screen and (max-width: 991px) {
+  .header {
+    &__phone {
+      column-gap: .25rem;
+      align-items: flex-start;
+
+      &-icon {
+        img {
+          width: 9px;
+          height: 9px;
+        }
+      }
+
+      &-links {
+        flex-direction: column;
+        row-gap: .5rem;
+      }
+    }
+  }
+
+  .about {
+    &__wrapper {
+      grid-template-columns: 1fr;
+
+    }
+
+    &__card {
+      &-img {
+        height: 189px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 775px) {
+  .promo {
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 2.3rem;
+
+      background-size: 70%;
+      background-position: center top;
+    }
+
+    &__wrapper {
+      text-align: center;
+    }
+  }
+
   .review {
     padding-inline: 2rem;
+  }
+
+  .about {
+    &::before {
+      display: none;
+    }
+  }
+
+  .footer {
+    padding-block: 7.125rem 3rem;
+
+    &__nav {
+      flex-direction: column;
+      align-items: center;
+      row-gap: 2rem;
+      text-align: center;
+    }
+
+    &__phone {
+      order: -1;
+    }
   }
 }
 
@@ -15,13 +87,72 @@
         display: block;
       }
     }
+
+    &__data {
+      padding-top: 7rem;
+    }
   }
 }
 
+@media screen and (max-width: 575px) {
+  .promo {
+    padding-bottom: 3rem;
+    background: url("../img/promo-mask.png") left bottom / 55% repeat-x;
+
+    &__container {
+      background: none;
+    }
+
+    &__logo {
+      &-icon {
+        width: 60px;
+      }
+    }
+
+    &__data {
+      max-width: 300px;
+    }
+  }
+
+  .header {
+    &__nav {
+      flex-direction: column;
+      row-gap: 1rem;
+    }
+
+    &__social {
+      display: none;
+    }
+  }
+
+  .about {
+    padding-bottom: 6.25rem;
+
+    &__wrapper {
+      gap: 1.875rem
+    }
+  }
+
+  .review {
+    padding-inline: 1rem;
+
+    &__slide {
+      padding-top: 6rem;
+    }
+  }
+}
+
+
 @media screen and (min-width: 992px) {
   .promo {
+    padding-bottom: 1rem;
+
     &__img {
       width: 531px;
+    }
+
+    &__data {
+      padding-top: 11.875rem;
     }
   }
 }
